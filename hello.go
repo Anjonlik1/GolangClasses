@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 func main() {
-	// var x = 8.90
-	// fmt.Println("value of x is: ", x)
-	// fmt.Println("default value of x:  ", reflect.TypeOf(x))
-	// fmt.Println("zero value for ", reflect.TypeOf(x), "is  ", reflect.Zero(reflect.TypeOf(x)))
+	var x = 8.90
+	fmt.Println("value of x is: ", x)
+	fmt.Println("default value of x:  ", reflect.TypeOf(x))
+	fmt.Println("zero value for ", reflect.TypeOf(x), "is  ", reflect.Zero(reflect.TypeOf(x)))
 
 	//var a int8 = 200
 	// fmt.Println("the value of a is :", a)
